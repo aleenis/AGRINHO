@@ -1,59 +1,43 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #0de0e7;
+h2{
+    color:#ff0800;
+    
 }
 
-header {
-    background-color: #ff4d4d;
-    color: white;
+body{
+    background-color: rgb(4, 187, 4);
+
+    font-family: roboto;
     text-align: center;
-    padding: 20px 0;
 }
 
-nav {
-    background-color: #0a0a0a;
+header{
+    border-bottom: 1px solid rgb(128, 128, 128);
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
+footer{
+    border-top: 1px solid gray;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
+#nome-usuário{
+    font-weight: bold;
 }
 
-nav ul li a {
-    color: rgb(9, 223, 212);
-    text-decoration: none;
+
+h1{
+    color: red;
+}
+.comprar-agora {
+    background-color: #e74c3c; /* Cor de fundo vermelha */
+    color: white; /* Cor do texto branca */
+    border: none; /* Sem borda */
+    padding: 15px 30px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-top: 20px; /* Espaçamento superior */
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
 }
 
-nav ul li a:hover {
-    text-decoration: underline;
+.comprar-agora:hover {
+    background-color: #c0392b; /* Cor de fundo ao passar o mouse */
 }
-
-section {
-    padding: 20px;
-    margin: 10px;
-    background-color: rgb(11, 231, 231);
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background-color: #333;
-    color: rgb(13, 206, 231);
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-h2 {
-    color: #e63946;
-}
-
